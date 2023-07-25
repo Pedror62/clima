@@ -37,7 +37,7 @@ function App() {
     <>
       <div className='App'>
         <div className='container'>
-
+          <h1>Previsão do tempo</h1>
           <div className='content'>
 
             <input type="text" className='text' placeholder='Digite Sua Cidade...' />
