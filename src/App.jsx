@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import { clickbnt } from 'react'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,8 +28,6 @@ function App() {
     const cityes = document.querySelector(".text").value;
 
     buscarcitesbnt(cityes)
-
-
   }
 
   return (
